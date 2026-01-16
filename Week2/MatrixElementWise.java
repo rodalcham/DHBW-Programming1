@@ -21,7 +21,7 @@ public class MatrixElementWise {
 			for (int j = 0; j < cols; j++)
 			{
 				C[i][j] = A[i][j] + B[i][j];
-				System.out.print(C[i][j]);
+				System.out.print(C[i][j] + " ");
 			}
 			System.out.println("");
 		}
